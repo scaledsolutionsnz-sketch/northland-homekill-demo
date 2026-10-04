@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Northland Homekill | Homekill Butchery, Haruru Falls</title>
+<meta name="description" content="Family-run homekill butchery at Haruru Falls in the Bay of Islands. Your beef and lamb hung, cut, packed and made into fresh sausages. Call 021 0277 8595 to book in.">
+<meta property="og:title" content="Northland Homekill | Homekill Butchery, Haruru Falls">
+<meta property="og:description" content="Your own beef and lamb, cut and packed right. Local, family-run homekill in Haruru Falls.">
+<meta property="og:image" content="https://northland-homekill-demo.vercel.app/og.jpg">
+<meta property="og:url" content="https://northland-homekill-demo.vercel.app/">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+/* ========== EDIT THESE TO RE-THEME THE WHOLE SITE ========== */
+:root{
+  --accent:#a8322d;        /* butcher red */
+  --accent-dark:#86221e;
+  --tint:#f4e4de;
+  --tint-2:#f7efe8;
+  --bg:#fdfaf6;
+  --ink:#2a1d17;
+  --muted:#6e5a4f;
+  --line:#eadbd0;
+  --star:#e0a12e;
+  --r-lg:32px;
+  --r:20px;
+  --display:'Zilla Slab', Georgia, serif;
+  --body:'Karla', Arial, sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--body);font-size:17px;line-height:1.6;color:var(--ink);background:var(--bg);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block;image-orientation:from-image}
+a{color:var(--accent-dark)}
+h1,h2,h3{font-family:var(--display);line-height:1.08;margin:0 0 .5em;font-weight:800;letter-spacing:-.02em}
+h2{font-size:clamp(2rem,4.4vw,3.1rem)}
+h3{font-size:1.3rem;font-weight:700;letter-spacing:-.01em}
+p{margin:0 0 1em}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+section{padding:88px 0;position:relative;scroll-margin-top:74px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.82rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent-dark);background:var(--tint);padding:6px 14px;border-radius:99px;margin-bottom:16px}
+.section-head{max-width:620px;margin-bottom:48px}
+.section-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.section-head p{color:var(--muted);font-size:1.08rem}
+.badge{display:inline-block;font-family:var(--body);font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:5px 11px;border-radius:99px;background:var(--ink);color:#fff;vertical-align:middle;margin-left:6px;position:relative;top:-6px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:12px 28px;border-radius:99px;font-weight:700;font-size:1.02rem;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:transform .25s cubic-bezier(.34,1.56,.64,1),background .2s,color .2s,box-shadow .25s}
+.btn:hover{transform:translateY(-3px)}
+.btn-primary{background:var(--accent);color:#fff;box-shadow:0 12px 24px -12px rgba(168,50,45,.7)}
+.btn-primary:hover{background:var(--accent-dark);box-shadow:0 16px 28px -12px rgba(168,50,45,.8)}
+.btn-soft{background:#fff;color:var(--ink);border-color:var(--line)}
+.btn-soft:hover{border-color:var(--accent);color:var(--accent-dark)}
+.btn-light{background:#fff;color:var(--ink)}
+.btn-outline-light{border-color:rgba(255,255,255,.6);color:#fff}
+.btn-outline-light:hover{background:#fff;color:var(--ink)}
+.btn svg{width:20px;height:20px;flex:none}
+.icon{width:24px;height:24px;flex:none}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wiggle{animation:wiggle 5s ease-in-out 2s infinite}
+@keyframes wiggle{0%,86%,100%{transform:rotate(0)}88%{transform:rotate(-4deg) scale(1.04)}90%{transform:rotate(4deg) scale(1.04)}92%{transform:rotate(-3deg)}94%{transform:rotate(2deg)}96%{transform:rotate(0)}}
+
+/* ---------- WAVE DIVIDERS ---------- */
+.wave{position:relative;height:70px;overflow:hidden;line-height:0;margin-top:-1px}
+.wave svg{position:absolute;bottom:0;left:0;width:200%;height:100%;animation:drift 18s linear infinite}
+.wave svg.back{opacity:.45;animation-duration:26s;animation-direction:reverse}
+@keyframes drift{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ---------- NAV ---------- */
+.nav{position:sticky;top:0;z-index:60;background:rgba(42,29,23,.96);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s,box-shadow .3s}
+.nav.scrolled{border-color:var(--line);box-shadow:0 8px 24px -18px rgba(42,29,23,.4)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:74px}
+.logo{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-family:var(--display);font-weight:800;font-size:1.3rem;letter-spacing:-.02em;white-space:nowrap}
+.logo svg{width:40px;height:40px;flex:none}
+.nav-links{display:flex;gap:6px;list-style:none;margin:0;padding:0}
+.nav-links a{display:block;color:#fff;text-decoration:none;font-weight:600;padding:8px 14px;border-radius:99px;transition:background .2s}
+.nav-links a:hover{background:rgba(255,255,255,.12)}
+.nav-right{display:flex;align-items:center;gap:10px}
+.nav-call{min-height:46px;padding:8px 20px}
+.burger{display:none;background:rgba(255,255,255,.12);border:0;color:#fff;width:46px;height:46px;border-radius:50%;padding:12px;cursor:pointer}
+@media (max-width:960px){
+  .burger{display:block}
+  .nav-links{display:none;position:absolute;top:84px;left:12px;right:12px;flex-direction:column;background:#fff;padding:12px;border-radius:var(--r);box-shadow:0 20px 40px -16px rgba(42,29,23,.35)}
+  .nav-links.open{display:flex}
+  .nav-links a{padding:14px 16px}
+  .nav-call .label{display:none}
+  .nav-call{width:46px;padding:0}
+}
+@media (max-width:420px){.logo{font-size:1.1rem}.logo svg{width:34px;height:34px}}
+
+/* ---------- HERO ---------- */
+.hero{padding:56px 0 40px;background:linear-gradient(180deg,var(--bg),var(--tint-2));overflow:hidden}
+.bubbles{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.bubbles span{position:absolute;border-radius:50%;background:radial-gradient(circle at 30% 30%,rgba(255,255,255,.9),rgba(168,50,45,.10) 60%,rgba(168,50,45,.16));box-shadow:inset 0 0 0 1px rgba(168,50,45,.12);animation:bob 7s ease-in-out infinite}
+.bubbles span:nth-child(1){width:70px;height:70px;left:4%;top:12%}
+.bubbles span:nth-child(2){width:28px;height:28px;left:40%;top:8%;animation-delay:-2s;animation-duration:6s}
+.bubbles span:nth-child(3){width:46px;height:46px;left:46%;bottom:14%;animation-delay:-4s;animation-duration:8s}
+.bubbles span:nth-child(4){width:18px;height:18px;left:12%;bottom:20%;animation-delay:-1s;animation-duration:5s}
+.bubbles span:nth-child(5){width:110px;height:110px;right:-30px;top:6%;animation-delay:-3s;animation-duration:9s}
+.bubbles span:nth-child(6){width:24px;height:24px;right:8%;bottom:10%;animation-delay:-5s}
+@keyframes bob{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-22px) scale(1.06)}}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(2.5rem,6vw,4.6rem);margin-bottom:20px}
+.hero h1 em{font-style:normal;color:var(--accent);position:relative;white-space:nowrap}
+.hero h1 em svg{position:absolute;left:0;bottom:-.18em;width:100%;height:.35em;color:var(--accent);opacity:.5}
+.hero .lead{font-size:clamp(1.08rem,1.8vw,1.25rem);color:var(--muted);max-width:520px}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin:30px 0 26px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:18px;color:var(--muted);font-weight:600;font-size:.95rem}
+.hero-meta span{display:inline-flex;align-items:center;gap:8px}
+.hero-meta .icon{width:20px;height:20px;color:var(--accent)}
+.photo-stack{position:relative;aspect-ratio:4/4.3;border-radius:var(--r-lg);background:var(--tint);box-shadow:0 30px 60px -30px rgba(42,29,23,.45)}
+.photo-stack .slides{position:absolute;inset:0;border-radius:var(--r-lg);overflow:hidden}
+.photo-stack .slides img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.06);transition:opacity 1.2s ease,transform 6s ease}
+.photo-stack .slides img.active{opacity:1;transform:scale(1)}
+.photo-stack::before{content:"";position:absolute;inset:18px -18px -18px 18px;border-radius:var(--r-lg);background:var(--accent);opacity:.14;z-index:-1}
+.rating{position:absolute;left:-28px;bottom:36px;display:flex;align-items:center;gap:12px;padding:14px 18px;border-radius:var(--r);background:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.9);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 16px 36px -16px rgba(42,29,23,.5);animation:bob 6s ease-in-out infinite;font-size:.92rem;line-height:1.3}
+.rating strong{font-family:var(--display);font-size:1.7rem;line-height:1}
+.stars{color:var(--star);letter-spacing:1px}
+.rating em{font-style:normal;color:var(--muted);font-size:.8rem}
+.slide-dots{position:absolute;right:20px;bottom:20px;display:flex;gap:6px}
+.slide-dots i{width:8px;height:8px;border-radius:99px;background:rgba(255,255,255,.6);transition:width .4s,background .4s}
+.slide-dots i.on{width:24px;background:#fff}
+@media (max-width:900px){
+  .hero .wrap{grid-template-columns:1fr;gap:44px}
+  .photo-stack{aspect-ratio:4/3.4;max-width:560px;width:100%;margin:0 auto}
+  .rating{left:12px;bottom:-22px}
+  .photo-stack::before{inset:12px -10px -12px 12px}
+}
+
+/* ---------- TRUST ---------- */
+.trust{padding:20px 0 64px;background:var(--tint-2)}
+.trust-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.trust-item{display:flex;gap:16px;align-items:flex-start;background:#fff;border-radius:var(--r);padding:24px;border:1px solid var(--line)}
+.trust-item .ic{width:52px;height:52px;border-radius:16px;background:var(--tint);color:var(--accent-dark);display:grid;place-items:center;flex:none}
+.trust-item strong{display:block;font-family:var(--display);font-size:1.15rem}
+.trust-item span{color:var(--muted);font-size:.95rem}
+@media (max-width:820px){.trust-grid{grid-template-columns:1fr}}
+
+/* ---------- SERVICES (BENTO) ---------- */
+.services{background:var(--bg)}
+.bento{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:minmax(240px,auto);gap:20px}
+.svc{position:relative;border-radius:var(--r-lg);overflow:hidden;background:#fff;border:1px solid var(--line);display:flex;flex-direction:column;transition:transform .35s cubic-bezier(.34,1.56,.64,1),box-shadow .35s;transform-style:preserve-3d;will-change:transform}
+.svc:hover{box-shadow:0 26px 50px -26px rgba(42,29,23,.45)}
+.svc .img{overflow:hidden;aspect-ratio:16/10}
+.svc .img img{width:100%;height:100%;object-fit:cover;transition:transform .7s ease}
+.svc:hover .img img{transform:scale(1.07)}
+.svc .body{padding:20px 22px 24px}
+.svc .body p{color:var(--muted);margin:0;font-size:.97rem}
+.svc .tag{display:inline-block;font-size:.75rem;font-weight:700;color:var(--accent-dark);background:var(--tint);padding:3px 10px;border-radius:99px;margin-bottom:10px}
+.svc.big{grid-column:span 2;grid-row:span 2;color:#fff;border:0;min-height:520px}
+.svc.big .img{position:absolute;inset:0;aspect-ratio:auto}
+.svc.big::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(42,29,23,0) 35%,rgba(42,29,23,.85))}
+.svc.big .body{position:relative;z-index:2;margin-top:auto;padding:32px}
+.svc.big h3{font-size:2rem}
+.svc.big .body p{color:#f6e7df;font-size:1.05rem;max-width:420px}
+.svc.big .tag{background:rgba(255,255,255,.2);color:#fff;backdrop-filter:blur(6px)}
+.svc.wide{grid-column:span 2;flex-direction:row}
+.svc.wide .img{aspect-ratio:auto;flex:1 1 45%}
+.svc.wide .body{flex:1 1 55%;align-self:center}
+.svc.accent{grid-column:span 2;background:var(--accent);color:#fff;border:0;justify-content:center}
+.svc.accent .body p{color:#f8e4dc}
+.svc.accent .body{padding:30px}
+.svc.accent .btn{margin-top:18px}
+@media (max-width:1000px){.bento{grid-template-columns:repeat(2,1fr)}.svc.big{min-height:440px}}
+@media (max-width:640px){
+  .bento{grid-template-columns:1fr;grid-auto-rows:auto}
+  .svc.big,.svc.wide,.svc.accent{grid-column:auto;grid-row:auto}
+  .svc.big{min-height:420px}
+  .svc.wide{flex-direction:column}
+  .svc.wide .img{aspect-ratio:16/10;flex:none}
+}
+
+/* ---------- STATS ---------- */
+.stats{padding:0 0 88px;background:var(--bg)}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;background:var(--ink);color:#fff;border-radius:var(--r-lg);padding:40px 32px;position:relative;overflow:hidden}
+.stats-grid::before{content:"";position:absolute;width:260px;height:260px;border-radius:50%;background:var(--accent);opacity:.35;right:-80px;top:-120px}
+.stat{position:relative;text-align:center}
+.stat b{display:block;font-family:var(--display);font-size:clamp(2.4rem,5vw,3.4rem);line-height:1;color:#f0b9a6}
+.stat span{color:#dccbc0;font-weight:600;font-size:.95rem}
+.stats-note{position:absolute;left:20px;bottom:12px;font-size:.72rem;color:#b9a397;text-transform:uppercase;letter-spacing:.08em}
+@media (max-width:760px){.stats-grid{grid-template-columns:repeat(2,1fr);row-gap:32px;padding:40px 20px 44px}}
+
+/* ---------- ABOUT ---------- */
+.about{background:var(--tint-2)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.collage{position:relative;height:520px}
+.collage img{position:absolute;border-radius:var(--r-lg);object-fit:cover;box-shadow:0 24px 48px -24px rgba(42,29,23,.5);border:6px solid #fff}
+.collage .c1{width:68%;height:72%;left:0;top:0}
+.collage .c2{width:52%;height:50%;right:0;bottom:4%}
+.collage .c3{width:34%;height:34%;left:10%;bottom:0}
+.corner-tag{position:absolute;right:6%;top:6%;background:var(--accent);color:#fff;font-weight:700;padding:14px 20px;border-radius:99px;box-shadow:0 12px 24px -10px rgba(168,50,45,.7);transform:rotate(4deg);font-size:.95rem}
+.checklist{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:12px}
+.checklist li{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--line);padding:14px 18px;border-radius:99px;font-weight:600}
+.checklist .ck{width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;flex:none}
+.checklist .ck svg{width:16px;height:16px}
+@media (max-width:900px){.split{grid-template-columns:1fr;gap:48px}.collage{height:420px}}
+@media (max-width:480px){.collage{height:340px}}
+
+/* ---------- PHOTO STRIP ---------- */
+.strip{padding:0;background:var(--tint-2);overflow:hidden}
+.strip-track{display:flex;gap:18px;width:max-content;animation:marquee 40s linear infinite;padding:0 0 88px}
+.strip-track img{width:280px;height:200px;object-fit:cover;border-radius:var(--r);flex:none}
+.strip-track img:nth-child(odd){transform:translateY(18px)}
+.strip:hover .strip-track{animation-play-state:paused}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (max-width:600px){.strip-track img{width:200px;height:150px}}
+
+/* ---------- TEAM ---------- */
+.team{background:var(--bg)}
+.team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.team-card{background:#fff;border:1px solid var(--line);border-radius:var(--r-lg);padding:34px 26px;text-align:center;transition:transform .35s cubic-bezier(.34,1.56,.64,1),box-shadow .35s}
+.team-card:hover{transform:translateY(-6px);box-shadow:0 24px 44px -26px rgba(42,29,23,.45)}
+.avatar{width:96px;height:96px;margin:0 auto 18px;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:1.9rem;color:#fff;background:var(--ink);box-shadow:0 0 0 5px #fff,0 0 0 8px var(--accent)}
+.team-card p{color:var(--muted);margin:0}
+@media (max-width:820px){.team-grid{grid-template-columns:1fr}}
+
+/* ---------- REVIEWS ---------- */
+.reviews{background:var(--tint-2)}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.review{background:#fff;border-radius:var(--r-lg);padding:30px;display:flex;flex-direction:column;gap:14px;border:1px solid var(--line);position:relative}
+.review .quote{position:absolute;right:24px;top:18px;width:44px;height:44px;color:var(--tint)}
+.review p{margin:0;flex:1;font-size:1.02rem}
+.review footer{display:flex;align-items:center;gap:12px;font-size:.92rem;color:var(--muted)}
+.review footer .mini{width:40px;height:40px;border-radius:50%;background:var(--tint);color:var(--accent-dark);display:grid;place-items:center;font-weight:700}
+.review footer strong{color:var(--ink);display:block}
+.center-cta{text-align:center;margin-top:40px}
+@media (max-width:900px){.reviews-grid{grid-template-columns:1fr}}
+
+/* ---------- LEAVE A REVIEW ---------- */
+.leave{padding:0 0 88px;background:var(--tint-2)}
+.leave-box{background:var(--accent);color:#fff;border-radius:var(--r-lg);padding:44px 40px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;position:relative;overflow:hidden}
+.leave-box::before,.leave-box::after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.12)}
+.leave-box::before{width:180px;height:180px;left:-60px;bottom:-90px}
+.leave-box::after{width:90px;height:90px;right:30%;top:-40px}
+.leave-box>*{position:relative}
+.leave-box h2{margin:0;font-size:clamp(1.6rem,3.2vw,2.2rem)}
+.leave-box p{margin:6px 0 0;color:#f8e4dc}
+
+/* ---------- FAQ ---------- */
+.faq{background:var(--bg)}
+.faq-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+.faq-list details{background:#fff;border:1px solid var(--line);border-radius:var(--r);margin-bottom:12px;transition:border-color .2s,box-shadow .2s}
+.faq-list details[open]{border-color:var(--accent);box-shadow:0 14px 30px -22px rgba(168,50,45,.7)}
+.faq-list summary{list-style:none;cursor:pointer;padding:20px 64px 20px 24px;font-weight:700;font-size:1.05rem;position:relative;min-height:48px}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary::after{content:"";position:absolute;right:20px;top:50%;width:30px;height:30px;margin-top:-15px;border-radius:50%;background:var(--tint) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2386221e' stroke-width='2.5' stroke-linecap='round'%3E%3Cpath d='M12 6v12M6 12h12'/%3E%3C/svg%3E") center/16px no-repeat;transition:transform .3s cubic-bezier(.34,1.56,.64,1)}
+.faq-list details[open] summary::after{transform:rotate(45deg)}
+.faq-list details p{padding:0 24px 22px;margin:0;color:var(--muted)}
+@media (max-width:900px){.faq-wrap{grid-template-columns:1fr;gap:20px}}
+
+/* ---------- CONTACT ---------- */
+.contact{background:var(--ink);color:#fff}
+.contact .eyebrow{background:rgba(255,255,255,.1);color:#f0b9a6}
+.contact .split{align-items:start}
+.contact-rows{list-style:none;padding:0;margin:26px 0}
+.contact-rows li{display:flex;gap:14px;align-items:center;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.contact-rows .ic{width:40px;height:40px;border-radius:50%;background:rgba(240,185,166,.14);color:#f0b9a6;display:grid;place-items:center;flex:none}
+.contact-rows .ic svg{width:20px;height:20px}
+.contact-rows a{color:#fff;text-decoration:none}
+.contact-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--r-lg);padding:34px;display:flex;flex-direction:column;gap:14px}
+.contact-card h3{margin:0 0 4px}
+.contact-card p{color:#dccbc0;margin:0 0 8px}
+.contact-card .btn{min-height:64px;font-size:1.1rem}
+.socials{display:flex;gap:10px}
+.socials a{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.1);color:#fff;transition:background .2s,transform .3s cubic-bezier(.34,1.56,.64,1)}
+.socials a:hover{background:var(--accent);transform:translateY(-3px) rotate(-6deg)}
+.socials svg{width:20px;height:20px}
+
+/* ---------- MAP ---------- */
+.map{padding:0 0 88px;background:var(--ink)}
+.map iframe{width:100%;height:400px;border:0;border-radius:var(--r-lg);display:block}
+
+/* ---------- FOOTER ---------- */
+.footer{background:#1c130f;color:#bba79b;padding:36px 0;font-size:.93rem}
+.footer .wrap{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between}
+.footer a{color:#efe0d6;text-decoration:none}
+.footer a:hover{color:#fff}
+.footer-links{display:flex;flex-wrap:wrap;gap:18px}
+
+@media (max-width:600px){section{padding:64px 0}.stats,.leave,.map{padding-bottom:64px}.strip-track{padding-bottom:64px}.map iframe{height:300px}.leave-box{padding:34px 24px}.contact-card{padding:26px}}
+
+/* ---------- REVEAL (only when JS is running) ---------- */
+.js .pop{opacity:0;transform:translateY(28px) scale(.94);transition:opacity .6s ease,transform .8s cubic-bezier(.34,1.56,.64,1);transition-delay:var(--d,0s)}
+.js .pop.in{opacity:1;transform:none}
+.js .svc.pop.in{transition:opacity .6s ease var(--d,0s),transform .35s cubic-bezier(.34,1.56,.64,1),box-shadow .35s}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+  .js .pop{opacity:1;transform:none}
+}
+
+.logo img{height:68px;width:auto}
+.nav .wrap{min-height:84px}
+.review p{padding-right:44px}
+@media (max-width:560px){.hero h1 em{white-space:normal}.hero h1{font-size:2.3rem}}
+.hero .wrap>*{min-width:0}
+.reviews-grid{grid-template-columns:repeat(2,1fr);max-width:860px;margin:0 auto}
+@media (max-width:900px){.reviews-grid{grid-template-columns:1fr}}
+@media (max-width:960px){.nav-links{background:var(--ink)}}
+@media (max-width:420px){.logo img{height:48px}}
+h1,h2,h3{letter-spacing:-.01em}
+.hero-controls{position:absolute;left:20px;bottom:16px;z-index:3}
+.pause-btn{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.85);border:0;color:var(--ink);cursor:pointer;padding:0;box-shadow:0 6px 14px -6px rgba(0,0,0,.4)}
+.pause-btn:hover{background:#fff}
+.pause-btn svg{width:16px;height:16px}
+.rating{left:auto;right:-24px;bottom:auto;top:28px;text-decoration:none;color:var(--ink)}
+@media (max-width:900px){.rating{right:12px;top:auto;bottom:-22px;left:auto}}
+.stats-grid{grid-template-columns:repeat(3,1fr)}
+@media (max-width:760px){.stats-grid{grid-template-columns:1fr}}
+.stat b{font-size:clamp(2.2rem,4.6vw,3.2rem)}
+.stock-note{color:var(--muted);font-size:.85rem;margin-top:18px}
+.review footer .src{font-size:.8rem}
+.contact-rows span{overflow-wrap:anywhere;min-width:0}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+  <symbol id="i-snow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M4.9 4.9l14.2 14.2M2 12h20M4.9 19.1 19.1 4.9"/><path d="m9 3 3 3 3-3M9 21l3-3 3 3M3 9l3 3-3 3M21 9l-3 3 3 3"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 12 4l9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol>
+  <symbol id="i-knife" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21 15 9"/><path d="M15 9c2-2 5-6 6-7-1 4-2 8-4 10l-2-3z"/><path d="m6 18-2-2"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4v16l13-8z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></symbol>
+  <symbol id="i-quote" viewBox="0 0 24 24" fill="currentColor"><path d="M3 21c3 0 7-1 7-8V5H3v7h4c0 3-1.5 5-4 5v4zm11 0c3 0 7-1 7-8V5h-7v7h4c0 3-1.5 5-4 5v4z"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24" fill="currentColor"><path d="M14 8.5V6.8c0-.8.2-1.3 1.4-1.3H17V2.2c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.5V12h2.8v10H14V12h2.8l.4-3.5z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-tt" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 2h-3.4v13.4a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .9.1V9.1a6.3 6.3 0 1 0 5.4 6.3V8.6a8 8 0 0 0 4.6 1.5V6.7a4.7 4.7 0 0 1-4.6-4.7z"/></symbol>
+  <symbol id="wave-path" viewBox="0 0 1440 70" preserveAspectRatio="none"><path d="M0 35 C 180 70 360 0 540 35 S 900 70 1080 35 S 1260 0 1440 35 V70 H0 Z"/></symbol>
+</svg>
+
+<!-- 1. NAV -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#top" class="logo" aria-label="Northland Homekill home">
+      <img src="img/logo.png" alt="Northland Home Kill, Haruru Falls" width="1320" height="1026">
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a class="btn btn-primary nav-call" href="tel:+642102778595" aria-label="Call 021 0277 8595"><svg class="icon"><use href="#i-phone"/></svg><span class="label">021 0277 8595</span></a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- 2. HERO -->
+<section class="hero" id="hero" aria-label="Introduction">
+  <div class="bubbles" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="eyebrow">Haruru Falls · Bay of Islands</span>
+      <h1>Your own beef and lamb, <em>cut and packed right<svg viewBox="0 0 200 20" preserveAspectRatio="none" aria-hidden="true"><path d="M2 14 C 50 2 150 2 198 12" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/></svg></em>.</h1>
+      <p class="lead">A local, family-run homekill butchery in Haruru Falls. We hang, process and pack your animal the way you want it, with sausages made fresh on site and everything ready for the freezer.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary wiggle" href="tel:+642102778595"><svg class="icon"><use href="#i-phone"/></svg>Call 021 0277 8595</a>
+        <a class="btn btn-soft" href="#contact"><svg class="icon"><use href="#i-cal"/></svg>Book in your kill</a>
+      </div>
+      <div class="hero-meta">
+        <span><svg class="icon"><use href="#i-home"/></svg>Family run</span>
+        <span><svg class="icon"><use href="#i-snow"/></svg>Hung in our chillers</span>
+      </div>
+    </div>
+    <div class="photo-stack">
+      <div class="slides" id="heroSlides">
+        <img class="active" src="img/hero-gbp-1920.webp" srcset="img/hero-gbp-1080.webp 1005w, img/hero-gbp-1920.webp 1786w" sizes="(max-width:900px) 92vw, 560px" alt="" width="1786" height="1920" fetchpriority="high">
+        <img src="img/hero-fb02-1920.webp" srcset="img/hero-fb02-1080.webp 1005w, img/hero-fb02-1920.webp 1786w" sizes="(max-width:900px) 92vw, 560px" alt="" width="1786" height="1920" loading="lazy">
+        <img src="img/hero-fb06-1920.webp" srcset="img/hero-fb06-1080.webp 1005w, img/hero-fb06-1920.webp 1786w" sizes="(max-width:900px) 92vw, 560px" alt="" width="1786" height="1920" loading="lazy">
+      </div>
+      <div class="slide-dots" id="dots" aria-hidden="true"><i class="on"></i><i></i><i></i></div>
+      <div class="hero-controls"><button class="pause-btn" id="pauseBtn" type="button" aria-pressed="false" aria-label="Pause slideshow"><svg id="pauseIcon"><use href="#i-pause"/></svg></button></div>
+      <a class="rating" href="https://www.google.com/maps?cid=11432707713768660928" target="_blank" rel="noopener" aria-label="Rated 5.0 out of 5 on Google. Opens Google listing">
+        <strong>5.0</strong>
+        <div><span class="stars" aria-hidden="true">★★★★★</span><br>Rated 5 stars on Google</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 3. TRUST STRIP -->
+<section class="trust" aria-label="Why choose us">
+  <div class="wrap trust-grid">
+    <div class="trust-item pop"><div class="ic"><svg class="icon"><use href="#i-home"/></svg></div><div><strong>Local and family run</strong><span>Your local homekill butchery at Haruru Falls.</span></div></div>
+    <div class="trust-item pop" style="--d:.1s"><div class="ic"><svg class="icon"><use href="#i-knife"/></svg></div><div><strong>Cut how you like it</strong><span>Roasts, steaks, mince and sausages, packed your way.</span></div></div>
+    <div class="trust-item pop" style="--d:.2s"><div class="ic"><svg class="icon"><use href="#i-snow"/></svg></div><div><strong>Honest, affordable</strong><span>Professional, reliable service at a fair price.</span></div></div>
+  </div>
+</section>
+
+<div class="wave" aria-hidden="true" style="background:var(--tint-2);color:var(--bg)">
+  <svg class="back" viewBox="0 0 2880 70" preserveAspectRatio="none" fill="currentColor"><use href="#wave-path" width="1440" height="70"/><use href="#wave-path" x="1440" width="1440" height="70"/></svg>
+  <svg viewBox="0 0 2880 70" preserveAspectRatio="none" fill="currentColor"><use href="#wave-path" width="1440" height="70"/><use href="#wave-path" x="1440" width="1440" height="70"/></svg>
+</div>
+
+<!-- 4. SERVICES -->
+<section id="services" class="services">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What we do</span>
+      <h2>From the paddock to your freezer</h2>
+      <p>Book your beast in, and we'll take care of the hanging, cutting, sausage making and packing.</p>
+    </div>
+    <div class="bento">
+      <article class="svc big pop tilt">
+        <div class="img"><img src="img/fb07-1920.webp" srcset="img/fb07-1080.webp 1080w, img/fb07-1920.webp 1920w" sizes="(max-width:640px) 100vw, 50vw" alt="Rows of fresh sausages hanging at Northland Homekill" width="1920" height="1610" loading="lazy"></div>
+        <div class="body"><span class="tag">Made here</span><h3>Fresh sausages</h3><p>We hang, prep and pack real sausages from your own meat, packed with flavour.</p></div>
+      </article>
+      <article class="svc pop tilt" style="--d:.08s">
+        <div class="img"><img src="img/sheep-1920.webp" srcset="img/sheep-1080.webp 1080w, img/sheep-1920.webp 1920w" sizes="(max-width:640px) 100vw, 25vw" alt="Mob of sheep in a green paddock" width="1920" height="1080" loading="lazy"></div>
+        <div class="body"><span class="tag">Book in</span><h3>Homekill</h3><p>Your own beef or lamb, booked in for processing.</p></div>
+      </article>
+      <article class="svc pop tilt" style="--d:.16s">
+        <div class="img"><img src="img/butcher-1920.webp" srcset="img/butcher-1080.webp 720w, img/butcher-1920.webp 1280w" sizes="(max-width:640px) 100vw, 25vw" alt="Butcher cutting joints of meat on a wooden block" width="1280" height="1920" loading="lazy"></div>
+        <div class="body"><span class="tag">Your way</span><h3>Cut to order</h3><p>Roasts, steaks, chops and mince, cut how your family eats.</p></div>
+      </article>
+      <article class="svc wide pop tilt" style="--d:.24s">
+        <div class="img"><img src="img/fb06-1920.webp" srcset="img/fb06-1080.webp 557w, img/fb06-1920.webp 990w" sizes="(max-width:640px) 100vw, 22vw" alt="Packed and labelled meat in the Northland Homekill chiller" width="990" height="1920" loading="lazy"></div>
+        <div class="body"><span class="tag">Freezer ready</span><h3>Packed and labelled</h3><p>Everything packed up ready to go straight into the freezer when you pick up your lot.</p></div>
+      </article>
+      <article class="svc wide pop tilt" style="--d:.32s">
+        <div class="img"><img src="img/gbp-1920.webp" srcset="img/gbp-1080.webp 608w, img/gbp-1920.webp 1080w" sizes="(max-width:640px) 100vw, 22vw" alt="Two rolled lamb roasts tied with rosemary at Northland Homekill" width="1080" height="1920" loading="lazy"></div>
+        <div class="body"><span class="tag">Sunday sorted</span><h3>Roasts done properly</h3><p>Boned, rolled and tied roasts, ready for the oven.</p></div>
+      </article>
+      <article class="svc accent pop tilt" style="--d:.4s">
+        <div class="body"><h3>Chillers fill up fast</h3><p>Especially before Christmas. Give us a call to book your animal in while there's space.</p><a class="btn btn-light" href="tel:+642102778595">Call to book in</a></div>
+      </article>
+    </div>
+    <p class="stock-note">The sheep and cutting photos are stock images for this demo. The rest are Northland Homekill's own.</p>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats" aria-label="At a glance">
+  <div class="wrap">
+    <div class="stats-grid pop">
+      <div class="stat"><b>5.0</b><span>Google rating</span></div>
+      <div class="stat"><b data-count="358">358</b><span>Facebook followers</span></div>
+      <div class="stat"><b>Local</b><span>Family-run in Haruru Falls</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="wave" aria-hidden="true" style="background:var(--bg);color:var(--tint-2)">
+  <svg class="back" viewBox="0 0 2880 70" preserveAspectRatio="none" fill="currentColor"><use href="#wave-path" width="1440" height="70"/><use href="#wave-path" x="1440" width="1440" height="70"/></svg>
+  <svg viewBox="0 0 2880 70" preserveAspectRatio="none" fill="currentColor"><use href="#wave-path" width="1440" height="70"/><use href="#wave-path" x="1440" width="1440" height="70"/></svg>
+</div>
+
+<!-- 5. ABOUT -->
+<section id="about" class="about">
+  <div class="wrap split">
+    <div class="collage pop">
+      <img class="c1" src="img/fb03-1920.webp" srcset="img/fb03-1080.webp 815w, img/fb03-1920.webp 1449w" sizes="(max-width:900px) 64vw, 400px" alt="The Northland Homekill team in the chiller room" width="1449" height="1920" loading="lazy">
+      <img class="c2" src="img/fb04-1920.webp" srcset="img/fb04-1080.webp 1080w, img/fb04-1920.webp 1920w" sizes="(max-width:900px) 50vw, 320px" alt="Fresh sausages hanging to set" width="1920" height="1118" loading="lazy">
+      <img class="c3" src="img/steaks-1920.webp" srcset="img/steaks-1080.webp 1080w, img/steaks-1920.webp 1920w" sizes="200px" alt="Meat being diced on a board" width="1920" height="1280" loading="lazy">
+      <div class="corner-tag">Family run</div>
+    </div>
+    <div class="pop" style="--d:.1s">
+      <span class="eyebrow">About us</span>
+      <h2>Your local homekill, just up the road</h2>
+      <p>Northland Homekill is a family-run homekill butchery at 5 Te Kahu Street, Haruru Falls, just out of Paihia. We process local animals for local families, and our chillers fill up with Northland's finest meat every season.</p>
+      <p>Professional, honest and reliable service at affordable prices. That's the whole idea.</p>
+      <ul class="checklist">
+        <li><span class="ck"><svg><use href="#i-check"/></svg></span>Local and family run</li>
+        <li><span class="ck"><svg><use href="#i-check"/></svg></span>Sausages made on site</li>
+        <li><span class="ck"><svg><use href="#i-check"/></svg></span>Fair, affordable prices</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PHOTO STRIP -->
+<section class="strip" aria-label="Photo gallery">
+  <div class="strip-track">
+    <img src="img/fb02-1080.webp" srcset="img/fb02-1080.webp 1080w, img/fb02-1920.webp 1920w" sizes="280px" alt="Sausages hanging in the chiller" width="1080" height="906" loading="lazy">
+    <img src="img/cow-1080.webp" srcset="img/cow-1080.webp 1080w, img/cow-1920.webp 1920w" sizes="280px" alt="Cow grazing in long grass" width="1080" height="719" loading="lazy">
+    <img src="img/fb05-1080.webp" srcset="img/fb05-1080.webp 1080w, img/fb05-1920.webp 1920w" sizes="280px" alt="A long row of fresh sausages" width="1080" height="560" loading="lazy">
+    <img src="img/gbp-1080.webp" srcset="img/gbp-1080.webp 1080w, img/gbp-1920.webp 1920w" sizes="280px" alt="Rolled roasts with rosemary" width="608" height="1080" loading="lazy">
+    <img src="img/fb06-1080.webp" srcset="img/fb06-1080.webp 1080w, img/fb06-1920.webp 1920w" sizes="280px" alt="Packed meat ready for pick up" width="557" height="1080" loading="lazy">
+    <img src="img/sheep-1080.webp" srcset="img/sheep-1080.webp 1080w, img/sheep-1920.webp 1920w" sizes="280px" alt="Sheep in a paddock" width="1080" height="608" loading="lazy">
+    <img src="img/fb02-1080.webp" srcset="img/fb02-1080.webp 1080w, img/fb02-1920.webp 1920w" sizes="280px" alt="" width="1080" height="906" loading="lazy" aria-hidden="true">
+    <img src="img/cow-1080.webp" srcset="img/cow-1080.webp 1080w, img/cow-1920.webp 1920w" sizes="280px" alt="" width="1080" height="719" loading="lazy" aria-hidden="true">
+    <img src="img/fb05-1080.webp" srcset="img/fb05-1080.webp 1080w, img/fb05-1920.webp 1920w" sizes="280px" alt="" width="1080" height="560" loading="lazy" aria-hidden="true">
+    <img src="img/gbp-1080.webp" srcset="img/gbp-1080.webp 1080w, img/gbp-1920.webp 1920w" sizes="280px" alt="" width="608" height="1080" loading="lazy" aria-hidden="true">
+    <img src="img/fb06-1080.webp" srcset="img/fb06-1080.webp 1080w, img/fb06-1920.webp 1920w" sizes="280px" alt="" width="557" height="1080" loading="lazy" aria-hidden="true">
+    <img src="img/sheep-1080.webp" srcset="img/sheep-1080.webp 1080w, img/sheep-1920.webp 1920w" sizes="280px" alt="" width="1080" height="608" loading="lazy" aria-hidden="true">
+  </div>
+</section>
+
+<div class="wave" aria-hidden="true" style="background:var(--tint-2);color:var(--bg)">
+  <svg class="back" viewBox="0 0 2880 70" preserveAspectRatio="none" fill="currentColor"><use href="#wave-path" width="1440" height="70"/><use href="#wave-path" x="1440" width="1440" height="70"/></svg>
+  <svg viewBox="0 0 2880 70" preserveAspectRatio="none" fill="currentColor"><use href="#wave-path" width="1440" height="70"/><use href="#wave-path" x="1440" width="1440" height="70"/></svg>
+</div>
+
+<!-- 6. TEAM -->
+<section id="team" class="team">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Who you'll deal with</span>
+      <h2>A local family on the knives</h2>
+    </div>
+    <div class="team-grid">
+      <div class="team-card pop"><div class="avatar">B</div><h3>Brendon</h3><p>Takes your booking, talks through how you want your meat cut and has your lot ready to pick up.</p></div>
+      <div class="team-card pop" style="--d:.1s"><div class="avatar" style="background:var(--accent)">BU</div><h3>Butchery <span class="badge">Example role</span></h3><p>Breaking down, cutting and packing every order to your instructions.</p></div>
+      <div class="team-card pop" style="--d:.2s"><div class="avatar">SM</div><h3>Sausage making <span class="badge">Example role</span></h3><p>Mixing, filling and hanging fresh sausages from your own meat.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="wave" aria-hidden="true" style="background:var(--bg);color:var(--tint-2)">
+  <svg class="back" viewBox="0 0 2880 70" preserveAspectRatio="none" fill="currentColor"><use href="#wave-path" width="1440" height="70"/><use href="#wave-path" x="1440" width="1440" height="70"/></svg>
+  <svg viewBox="0 0 2880 70" preserveAspectRatio="none" fill="currentColor"><use href="#wave-path" width="1440" height="70"/><use href="#wave-path" x="1440" width="1440" height="70"/></svg>
+</div>
+
+<!-- 7. REVIEWS -->
+<section id="reviews" class="reviews">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Reviews</span>
+      <h2>What locals say</h2>
+      <p>Rated 5.0 on Google. These comments are from customers on the Northland Homekills Facebook page.</p>
+    </div>
+    <div class="reviews-grid">
+      <article class="review pop"><svg class="quote"><use href="#i-quote"/></svg><p>"I just picked up our lot, excellent service, great guy, sense of humour, and at affordable price. Will definitely go back again."</p><footer><span class="mini">MM</span><div><strong>Margaret MacKinnon</strong><span class="src">Facebook comment</span></div></footer></article>
+      <article class="review pop" style="--d:.1s"><svg class="quote"><use href="#i-quote"/></svg><p>"Top Quality!"</p><footer><span class="mini">LC</span><div><strong>Lily Collins</strong><span class="src">Facebook comment on our sausages</span></div></footer></article>
+    </div>
+    <div class="center-cta"><a class="btn btn-soft" href="https://www.google.com/maps?cid=11432707713768660928" target="_blank" rel="noopener">See our Google reviews</a></div>
+  </div>
+</section>
+
+<!-- 8. LEAVE A REVIEW -->
+<section class="leave" aria-label="Leave a review">
+  <div class="wrap">
+    <div class="leave-box pop">
+      <div><h2>Happy with your meat? Leave us a review</h2><p>It helps other Northland families find a good local homekill.</p></div>
+      <a class="btn btn-light" href="https://www.google.com/maps?cid=11432707713768660928" target="_blank" rel="noopener">Review us on Google</a>
+    </div>
+  </div>
+</section>
+
+<!-- 9. FAQ -->
+<section id="faq" class="faq">
+  <div class="wrap faq-wrap">
+    <div class="section-head pop">
+      <span class="eyebrow">FAQ</span>
+      <h2>Before you book</h2>
+      <p>Anything else? Call or text Brendon on 021 0277 8595.</p>
+    </div>
+    <div class="faq-list">
+      <details class="pop"><summary>How do I book my animal in?</summary><p>Call or text 021 0277 8595, email us, or message us on Facebook. Bookings fill quickly, especially before Christmas, so get in early.</p></details>
+      <details class="pop" style="--d:.05s"><summary>Where are you?</summary><p>5 Te Kahu Street, Haruru Falls, just out of Paihia in the Bay of Islands. Ask when you book about where you're coming from.</p></details>
+      <details class="pop" style="--d:.1s"><summary>Can you make sausages from my meat?</summary><p>Yes. We hang, prep and pack fresh sausages on site. Talk to us about flavours and quantities when you book.</p></details>
+      <details class="pop" style="--d:.15s"><summary>How much does it cost?</summary><p>Prices depend on the animal and how you want it cut and packed. Give us a call and we'll talk you through it.</p></details>
+      <details class="pop" style="--d:.2s"><summary>When can I pick up my meat?</summary><p>We'll let you know when your lot is cut, packed and ready to collect from the chillers.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- 10. CONTACT -->
+<section id="contact" class="contact">
+  <div class="wrap split">
+    <div class="pop">
+      <span class="eyebrow">Contact</span>
+      <h2>Ready to fill the freezer?</h2>
+      <p style="color:#dccbc0">Call, text or email to book your animal in for processing.</p>
+      <ul class="contact-rows">
+        <li><span class="ic"><svg><use href="#i-phone"/></svg></span><a href="tel:+642102778595">021 0277 8595</a></li>
+        <li><span class="ic"><svg><use href="#i-mail"/></svg></span><span id="emailText">Email us using the button</span></li>
+        <li><span class="ic"><svg><use href="#i-pin"/></svg></span><span>5 Te Kahu Street, Haruru Falls 0204</span></li>
+      </ul>
+      <div class="socials">
+        <a href="https://www.facebook.com/p/Northland-Homekills-100064129203817/" target="_blank" rel="noopener" aria-label="Northland Homekills on Facebook"><svg><use href="#i-fb"/></svg></a>
+        <a href="https://www.instagram.com/explore/search/keyword/?q=northland%20homekill" target="_blank" rel="noopener" aria-label="Search Instagram for Northland Homekill"><svg><use href="#i-ig"/></svg></a>
+        <a href="https://www.tiktok.com/search?q=Northland%20Homekill" target="_blank" rel="noopener" aria-label="Search TikTok for Northland Homekill"><svg><use href="#i-tt"/></svg></a>
+      </div>
+    </div>
+    <div class="contact-card pop" style="--d:.1s">
+      <h3>Book in your kill</h3>
+      <p>Tap to call, or open a ready-to-send email.</p>
+      <a class="btn btn-primary" href="tel:+642102778595"><svg class="icon"><use href="#i-phone"/></svg>Call to book in</a>
+      <a class="btn btn-outline-light" href="#" data-gmail data-user="northlandhomekills" data-domain="gmail.com" data-su="Homekill%20booking" data-body="Hi%20Brendon%2C%0A%0AI'd%20like%20to%20book%20in%20an%20animal%20for%20processing.%0A%0AAnimal%3A%0AWhen%3A%0AHow%20I'd%20like%20it%20cut%3A%0A%0AThanks"><svg class="icon"><use href="#i-mail"/></svg>Email us to book</a>
+    </div>
+  </div>
+</section>
+
+<!-- 11. MAP -->
+<section class="map" aria-label="Map">
+  <div class="wrap">
+    <iframe title="Map to Northland Homekill, 5 Te Kahu Street, Haruru Falls" src="https://www.google.com/maps?q=Northland+Homekill,+5+Te+Kahu+Street,+Haruru+0204&ll=-35.2814439,174.0473349&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</section>
+
+</main>
+
+<!-- 12. FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Northland Homekill · Haruru Falls, Northland</span>
+    <div class="footer-links">
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="https://www.google.com/maps?cid=11432707713768660928" target="_blank" rel="noopener">Leave a review</a>
+    </div>
+    <div class="socials">
+      <a href="https://www.facebook.com/p/Northland-Homekills-100064129203817/" target="_blank" rel="noopener" aria-label="Northland Homekills on Facebook"><svg><use href="#i-fb"/></svg></a>
+      <a href="https://www.instagram.com/explore/search/keyword/?q=northland%20homekill" target="_blank" rel="noopener" aria-label="Search Instagram for Northland Homekill"><svg><use href="#i-ig"/></svg></a>
+      <a href="https://www.tiktok.com/search?q=Northland%20Homekill" target="_blank" rel="noopener" aria-label="Search TikTok for Northland Homekill"><svg><use href="#i-tt"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<script>
+var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+var burger=document.getElementById('burger'),links=document.getElementById('navLinks');
+burger.addEventListener('click',function(){var o=links.classList.toggle('open');burger.setAttribute('aria-expanded',o);burger.setAttribute('aria-label',o?'Close menu':'Open menu');});
+links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){links.classList.remove('open');burger.setAttribute('aria-expanded','false');burger.setAttribute('aria-label','Open menu');});});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&links.classList.contains('open')){links.classList.remove('open');burger.setAttribute('aria-expanded','false');burger.focus();}});
+
+var nav=document.getElementById('nav');
+addEventListener('scroll',function(){nav.classList.toggle('scrolled',scrollY>10);},{passive:true});
+
+// Hero crossfade with pause/play (starts paused under reduced motion)
+var slides=document.querySelectorAll('#heroSlides img'),dots=document.querySelectorAll('#dots i'),cur=0,timer=null;
+var pauseBtn=document.getElementById('pauseBtn'),pauseIcon=document.getElementById('pauseIcon').querySelector('use');
+function next(){slides[cur].classList.remove('active');dots[cur].classList.remove('on');cur=(cur+1)%slides.length;slides[cur].classList.add('active');dots[cur].classList.add('on');}
+function play(){if(timer||slides.length<2)return;timer=setInterval(next,6000);pauseBtn.setAttribute('aria-pressed','false');pauseBtn.setAttribute('aria-label','Pause slideshow');pauseIcon.setAttribute('href','#i-pause');}
+function pause(){clearInterval(timer);timer=null;pauseBtn.setAttribute('aria-pressed','true');pauseBtn.setAttribute('aria-label','Play slideshow');pauseIcon.setAttribute('href','#i-play');}
+pauseBtn.addEventListener('click',function(){timer?pause():play();});
+if(reduce){pause();}else{play();}
+
+function countUp(el){
+  var end=+el.getAttribute('data-count'),suf=el.getAttribute('data-suffix')||'';
+  if(reduce){el.textContent=end+suf;return;}
+  var t0=null,dur=1400;
+  function step(t){if(!t0)t0=t;var p=Math.min((t-t0)/dur,1),e=1-Math.pow(1-p,3);el.textContent=Math.round(end*e)+suf;if(p<1)requestAnimationFrame(step);}
+  requestAnimationFrame(step);
+}
+
+var pops=document.querySelectorAll('.pop');
+if('IntersectionObserver' in window&&!reduce){
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(!en.isIntersecting)return;
+      en.target.classList.add('in');
+      en.target.querySelectorAll('[data-count]').forEach(countUp);
+      io.unobserve(en.target);
+    });
+  },{threshold:.15,rootMargin:'0px 0px -40px 0px'});
+  pops.forEach(function(p){io.observe(p);});
+}else{
+  pops.forEach(function(p){p.classList.add('in');});
+}
+
+if(!reduce&&window.matchMedia('(hover: hover) and (pointer: fine)').matches){
+  document.querySelectorAll('.tilt').forEach(function(card){
+    card.addEventListener('pointermove',function(e){
+      var r=card.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+      card.style.transform='perspective(900px) translateY(-6px) rotateX('+(-y*6)+'deg) rotateY('+(x*6)+'deg)';
+    });
+    card.addEventListener('pointerleave',function(){card.style.transform='';});
+  });
+}
+
+document.querySelectorAll('a[data-gmail]').forEach(function(a){var to=a.getAttribute('data-user')+'@'+a.getAttribute('data-domain');a.href='https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(to)+'&su='+(a.getAttribute('data-su')||'')+'&body='+(a.getAttribute('data-body')||'');a.target='_blank';a.rel='noopener';});
+var et=document.getElementById('emailText');if(et)et.innerHTML='northlandhomekills<wbr>'+'@'+'gmail.com';
+
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
